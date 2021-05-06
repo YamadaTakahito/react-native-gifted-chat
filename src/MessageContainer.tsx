@@ -360,6 +360,7 @@ export default class MessageContainer<
           keyExtractor={this.keyExtractor}
           enableEmptySections
           automaticallyAdjustContentInsets={false}
+          removeClippedSubviews={true}
           inverted={inverted}
           data={this.props.messages}
           style={styles.listStyle}
